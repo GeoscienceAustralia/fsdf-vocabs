@@ -1,0 +1,84 @@
+PREFIX cs: <https://linked.data.gov.au/def/fsdf/operational-statuses>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX fsdf: <https://linked.data.gov.au/def/fsdf/>
+PREFIX opstatus: <https://linked.data.gov.au/def/fsdf/operational-statuses/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+opstatus:proposed
+    a
+        skos:Concept ,
+        fsdf:OperationalStatus ;
+    dcterms:identifier "proposed"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature is proposed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Proposed"@en ;
+    skos:topConceptOf cs: ;
+.
+
+opstatus:decommissioned
+    a
+        skos:Concept ,
+        fsdf:OperationalStatus ;
+    dcterms:identifier "decommissioned"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature is decommissioned"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Decommissioned"@en ;
+    skos:topConceptOf cs: ;
+.
+
+opstatus:non-operational
+    a
+        skos:Concept ,
+        fsdf:OperationalStatus ;
+    dcterms:identifier "non-operational"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature is not operating"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Non-Operational"@en ;
+    skos:topConceptOf cs: ;
+.
+
+opstatus:operational
+    a
+        skos:Concept ,
+        fsdf:OperationalStatus ;
+    dcterms:identifier "operational"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature is operating"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Operational"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a
+        owl:Ontology ,
+        skos:ConceptScheme ;
+    dcterms:created "2021-05-13"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "opstatuses"^^xsd:token ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dcterms:modified "2021-05-13"^^xsd:date ;
+    dcterms:provenance "Created for the Loc-I DR Project" ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
+    owl:versionInfo "1.0"^^xsd:string ;
+    reg:status status:submitted ;
+    skos:definition "This vocabulary is used to indicate the status of the operations of FSDF infrastructure assets (Features)"@en ;
+    skos:hasTopConcept
+        opstatus:decommissioned ,
+        opstatus:non-operational ,
+        opstatus:operational ;
+    skos:prefLabel "FSDF Operational Statuses" ;
+.
+

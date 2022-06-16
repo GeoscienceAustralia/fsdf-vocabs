@@ -1,0 +1,48 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX own: <https://linked.data.gov.au/def/fsdf/ownership/>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+own:private
+    a skos:Concept ;
+    dcterms:identifier "private"^^xsd:token ;
+    dcterms:provenance "Concept test provenance statement" ;
+    reg:status status:submitted ;
+    skos:definition "The facility is privately owned and operated"@en ;
+    skos:inScheme own: ;
+    skos:prefLabel "private"@en ;
+    skos:topConceptOf own: ;
+.
+
+own:public
+    a skos:Concept ;
+    dcterms:identifier "public"^^xsd:token ;
+    reg:status status:submitted ;
+    skos:definition "The facility is owned, leased or otherwise operated by a government body or public entity for the purpose of providing a service to the community"@en ;
+    skos:inScheme own: ;
+    skos:prefLabel "public"@en ;
+    skos:topConceptOf own: ;
+.
+
+own:
+    a skos:ConceptScheme ;
+    dcterms:created "2021-11-26"^^xsd:date ;
+    dcterms:creator "GA" ;
+    dcterms:custodian "Irina Bastrakova" ;
+    dcterms:frequency <http://purl.org/cld/freq/completelyirregular> ;
+    dcterms:identifier "ownership"^^xsd:token ;
+    dcterms:language "en" ;
+    dcterms:licence <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified "2021-11-26"^^xsd:date ;
+    dcterms:provenance "Vocabulary test provenance statement" ;
+    dcterms:publisher "ICSM" ;
+    reg:status status:submitted ;
+    skos:definition "Vocabulary of terms describing various aspects of ownership which may relate to a feature" ;
+    skos:hasTopConcept
+        own:private ,
+        own:public ;
+    skos:prefLabel "Ownership" ;
+.
+

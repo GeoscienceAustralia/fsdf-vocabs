@@ -1,0 +1,110 @@
+PREFIX cs: <https://linked.data.gov.au/def/fsdf/observable-properties>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX op: <https://linked.data.gov.au/def/fsdf/observable-properties/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+op:generationCapacity
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    dcterms:identifier "generationCapacity"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The rated generation capactiy of a Power Station"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Generation Capacity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+op:height
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    dcterms:identifier "height"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The height, abvove groud, of the Feature, in metres"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Height"@en ;
+    skos:topConceptOf cs: ;
+.
+
+op:verticalObstruction
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    dcterms:identifier "verticalObstruction"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The height, abvove groud, of the Feature, in feet"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vertical Obstruction"@en ;
+    skos:topConceptOf cs: ;
+.
+
+op:population
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    dcterms:identifier "population"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The total count of people for a given Feature"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Population"@en ;
+    skos:topConceptOf cs: ;
+.
+
+op:populationChange
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    dcterms:identifier "populationChange"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The change in population for a given Feature and a given teporal interval"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Population Change"@en ;
+    skos:topConceptOf cs: ;
+.
+
+op:ratedVoltage
+    a
+        skos:Concept ,
+        sosa:ObservableProperty ;
+    dcterms:identifier "ratedVoltage"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The voltage that the Feature is rated to carry or operate at"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Rated Voltage"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a
+        owl:Ontology ,
+        skos:ConceptScheme ;
+    dcterms:created "2021-05-13"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "op"^^xsd:token ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dcterms:modified "2021-05-13"^^xsd:date ;
+    dcterms:provenance "Created for the Loc-I DR Project, 2021"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
+    owl:versionInfo "1.0"^^xsd:string ;
+    reg:status status:submitted ;
+    skos:definition "This vocabulary lists properties of Features that may be observed"@en ;
+    skos:hasTopConcept
+        op:population ,
+        op:populationChange ,
+        op:ratedVoltage ;
+    skos:prefLabel "FSDF Observable Properties" ;
+.
+

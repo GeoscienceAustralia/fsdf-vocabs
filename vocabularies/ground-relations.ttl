@@ -1,0 +1,101 @@
+PREFIX cs: <https://linked.data.gov.au/def/fsdf/ground-relations>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX fsdf: <https://linked.data.gov.au/def/fsdf/>
+PREFIX ground: <https://linked.data.gov.au/def/fsdf/ground-relations/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX reg: <http://purl.org/linked-data/registry#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+ground:aboveAndBelowGround
+    a
+        skos:Concept ,
+        fsdf:GroundRelation ;
+    dcterms:identifier "aboveAndBelowGround"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        ground:aboveGround ,
+        ground:belowGround ;
+    skos:definition "The Feature is both above - on or over - and below - under - the earth's surface"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Above and Below Ground"@en ;
+    skos:topConceptOf cs: ;
+.
+
+ground:atGround
+    a
+        skos:Concept ,
+        fsdf:GroundRelation ;
+    dcterms:identifier "atGround"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature in the place of the earth's surface"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "At Ground"@en ;
+    skos:topConceptOf cs: ;
+.
+
+ground:unknown
+    a
+        skos:Concept ,
+        fsdf:GroundRelation ;
+    dcterms:identifier "unknown"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature's relation to the 'earth's surface is not known"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+ground:aboveGround
+    a
+        skos:Concept ,
+        fsdf:GroundRelation ;
+    dcterms:identifier "aboveGround"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature is entirely above - on or over - the earth's surface"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Above Ground"@en ;
+    skos:topConceptOf cs: ;
+.
+
+ground:belowGround
+    a
+        skos:Concept ,
+        fsdf:GroundRelation ;
+    dcterms:identifier "belowGround"^^xsd:token ;
+    reg:status status:submitted ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The Feature is entirely below - or under - the earth's surface"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Below Ground"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a
+        owl:Ontology ,
+        skos:ConceptScheme ;
+    dcterms:created "2021-06-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "ground-relations"^^xsd:token ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dcterms:modified "2021-06-08"^^xsd:date ;
+    dcterms:provenance "Created for the Loc-I DR Project"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
+    owl:versionInfo "1.0"^^xsd:string ;
+    reg:status status:submitted ;
+    skos:definition "This vocabulary lists relations of geospatial Feature to the earth's surface"@en ;
+    skos:hasTopConcept
+        ground:aboveGround ,
+        ground:atGround ,
+        ground:belowGround ,
+        ground:unknown ;
+    skos:prefLabel "FSDF Ground Relations" ;
+.
+
