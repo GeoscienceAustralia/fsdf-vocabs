@@ -1,7 +1,7 @@
 ![](ga-logo.jpg)
 
 # FSDF Vocabularies
-This repository contins vocabularies owned and/or managed by the [Intergovernmental Committee on Surveying and Mapping](https://www.icsm.gov.au/) as part of the Foundational Spatial Data Framework (FSDF) initiative.
+This repository contains vocabularies owned and/or managed by the [Intergovernmental Committee on Surveying and Mapping](https://www.icsm.gov.au/) as part of the Foundational Spatial Data Framework (FSDF) initiative.
 
 These _vocabularies_ are controlled lists of terms formulated according to the [Simple Knowlege Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) taxonomy data model.
 
