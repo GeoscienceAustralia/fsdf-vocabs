@@ -1,7 +1,7 @@
+PREFIX : <https://linked.data.gov.au/def/fsdf/operational-statuses/>
 PREFIX cs: <https://linked.data.gov.au/def/fsdf/operational-statuses>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX fsdf: <https://linked.data.gov.au/def/fsdf/>
-PREFIX opstatus: <https://linked.data.gov.au/def/fsdf/operational-statuses/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
@@ -9,7 +9,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-opstatus:proposed
+:proposed
     a
         skos:Concept ,
         fsdf:OperationalStatus ;
@@ -22,7 +22,7 @@ opstatus:proposed
     skos:topConceptOf cs: ;
 .
 
-opstatus:decommissioned
+:decommissioned
     a
         skos:Concept ,
         fsdf:OperationalStatus ;
@@ -35,7 +35,7 @@ opstatus:decommissioned
     skos:topConceptOf cs: ;
 .
 
-opstatus:non-operational
+:non-operational
     a
         skos:Concept ,
         fsdf:OperationalStatus ;
@@ -48,7 +48,7 @@ opstatus:non-operational
     skos:topConceptOf cs: ;
 .
 
-opstatus:operational
+:operational
     a
         skos:Concept ,
         fsdf:OperationalStatus ;
@@ -67,7 +67,7 @@ cs:
         skos:ConceptScheme ;
     dcterms:created "2021-05-13"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "opstatuses"^^xsd:token ;
+    dcterms:identifier "operational-statuses"^^xsd:token ;
     dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     dcterms:modified "2021-05-13"^^xsd:date ;
     dcterms:provenance "Created for the Loc-I DR Project" ;
@@ -76,9 +76,9 @@ cs:
     reg:status status:submitted ;
     skos:definition "This vocabulary is used to indicate the status of the operations of FSDF infrastructure assets (Features)"@en ;
     skos:hasTopConcept
-        opstatus:decommissioned ,
-        opstatus:non-operational ,
-        opstatus:operational ;
+        :decommissioned ,
+        :non-operational ,
+        :operational ;
     skos:prefLabel "FSDF Operational Statuses" ;
 .
 

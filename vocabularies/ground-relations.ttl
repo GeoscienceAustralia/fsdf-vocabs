@@ -1,7 +1,7 @@
+PREFIX : <https://linked.data.gov.au/def/fsdf/ground-relations/>
 PREFIX cs: <https://linked.data.gov.au/def/fsdf/ground-relations>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX fsdf: <https://linked.data.gov.au/def/fsdf/>
-PREFIX ground: <https://linked.data.gov.au/def/fsdf/ground-relations/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
@@ -9,7 +9,7 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-ground:aboveAndBelowGround
+:aboveAndBelowGround
     a
         skos:Concept ,
         fsdf:GroundRelation ;
@@ -17,15 +17,15 @@ ground:aboveAndBelowGround
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
     skos:broader
-        ground:aboveGround ,
-        ground:belowGround ;
+        :aboveGround ,
+        :belowGround ;
     skos:definition "The Feature is both above - on or over - and below - under - the earth's surface"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Above and Below Ground"@en ;
     skos:topConceptOf cs: ;
 .
 
-ground:atGround
+:atGround
     a
         skos:Concept ,
         fsdf:GroundRelation ;
@@ -38,7 +38,7 @@ ground:atGround
     skos:topConceptOf cs: ;
 .
 
-ground:unknown
+:unknown
     a
         skos:Concept ,
         fsdf:GroundRelation ;
@@ -51,7 +51,7 @@ ground:unknown
     skos:topConceptOf cs: ;
 .
 
-ground:aboveGround
+:aboveGround
     a
         skos:Concept ,
         fsdf:GroundRelation ;
@@ -64,7 +64,7 @@ ground:aboveGround
     skos:topConceptOf cs: ;
 .
 
-ground:belowGround
+:belowGround
     a
         skos:Concept ,
         fsdf:GroundRelation ;
@@ -92,10 +92,10 @@ cs:
     reg:status status:submitted ;
     skos:definition "This vocabulary lists relations of geospatial Feature to the earth's surface"@en ;
     skos:hasTopConcept
-        ground:aboveGround ,
-        ground:atGround ,
-        ground:belowGround ,
-        ground:unknown ;
+        :aboveGround ,
+        :atGround ,
+        :belowGround ,
+        :unknown ;
     skos:prefLabel "FSDF Ground Relations" ;
 .
 
