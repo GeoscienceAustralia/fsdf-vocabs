@@ -1,2498 +1,2498 @@
+PREFIX : <https://linked.data.gov.au/def/placenames-categories/>
 PREFIX cs: <https://linked.data.gov.au/def/placenames-categories>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX pn: <https://linked.data.gov.au/def/placenames/PlaceType>
-PREFIX pnc: <https://linked.data.gov.au/def/placenames-categories/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX reg: <http://purl.org/linked-data/registry#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <http://def.isotc211.org/iso19135/-1/2015/CoreModel/code/RE_ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-pnc:AGED-CARE
+:AGED-CARE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "aged-care"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CARE ;
+    skos:broader :CARE ;
     skos:definition "Aged Care"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Aged Care"@en ;
 .
 
-pnc:AGRICULTURAL-AREA
+:AGRICULTURAL-AREA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "agricultural-area"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "Agricultural Area"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Agricultural Area"@en ;
 .
 
-pnc:AIRPORT
+:AIRPORT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "airport"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:AIR ;
+    skos:broader :AIR ;
     skos:definition "Airport"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Airport"@en ;
 .
 
-pnc:ANCHORAGE
+:ANCHORAGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "anchorage"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Anchorage"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Anchorage"@en ;
 .
 
-pnc:ART-GALLERY
+:ART-GALLERY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "art-gallery"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Art Gallery"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Art Gallery"@en ;
 .
 
-pnc:BANK
+:BANK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bank"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Bank"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bank"@en ;
 .
 
-pnc:BAR
+:BAR
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bar"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Bar"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bar"@en ;
 .
 
-pnc:BATTERY
+:BATTERY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "battery"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROCESSING ;
+    skos:broader :PROCESSING ;
     skos:definition "Battery"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Battery"@en ;
 .
 
-pnc:BAY
+:BAY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bay"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Bay"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bay"@en ;
 .
 
-pnc:BEACH
+:BEACH
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "beach"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Beach"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Beach"@en ;
 .
 
-pnc:BEACON
+:BEACON
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "beacon"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Beacon"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Beacon"@en ;
 .
 
-pnc:BEND
+:BEND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bend"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Bend"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bend"@en ;
 .
 
-pnc:BICYCLE-TRACK
+:BICYCLE-TRACK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bicycle-track"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRAIL ;
+    skos:broader :TRAIL ;
     skos:definition "Bicycle Track"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bicycle Track"@en ;
 .
 
-pnc:BORE
+:BORE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bore"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-POINT ;
+    skos:broader :WATER-POINT ;
     skos:definition "Bore"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bore"@en ;
 .
 
-pnc:BOTANIC-GARDENS
+:BOTANIC-GARDENS
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "botanic-gardens"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Botanic Gardens"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Botanic Gardens"@en ;
 .
 
-pnc:BREAKWATER
+:BREAKWATER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "breakwater"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Breakwater"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Breakwater"@en ;
 .
 
-pnc:BUSH-NURSING-HOSPITAL
+:BUSH-NURSING-HOSPITAL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "bush-nursing-hospital"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HEALTH ;
+    skos:broader :HEALTH ;
     skos:definition "Bush Nursing Hospital"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bush Nursing Hospital"@en ;
 .
 
-pnc:CAMP-GROUND
+:CAMP-GROUND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "camp-ground"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ACCOMMODATION ;
+    skos:broader :ACCOMMODATION ;
     skos:definition "Camp Ground"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Camp Ground"@en ;
 .
 
-pnc:CAPE
+:CAPE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "cape"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Cape"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cape"@en ;
 .
 
-pnc:CAR-PARK
+:CAR-PARK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "car-park"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Car Park"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Car Park"@en ;
 .
 
-pnc:CARAVAN-PARK
+:CARAVAN-PARK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "caravan-park"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ACCOMMODATION ;
+    skos:broader :ACCOMMODATION ;
     skos:definition "Caravan Park"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Caravan Park"@en ;
 .
 
-pnc:CAUSEWAY
+:CAUSEWAY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "causeway"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Causeway"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Causeway"@en ;
 .
 
-pnc:CAVE
+:CAVE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "cave"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Cave"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cave"@en ;
 .
 
-pnc:CEMETERY
+:CEMETERY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "cemetery"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Cemetery"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cemetery"@en ;
 .
 
-pnc:CHANNEL
+:CHANNEL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "channel"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Channel"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Channel"@en ;
 .
 
-pnc:CHILD-CARE
+:CHILD-CARE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "child-care"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CARE ;
+    skos:broader :CARE ;
     skos:definition "Child Care"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Child Care"@en ;
 .
 
-pnc:CLIFF
+:CLIFF
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "cliff"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Cliff"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Cliff"@en ;
 .
 
-pnc:COAL-POWER-STATION
+:COAL-POWER-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "coal-power-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ENERGY ;
+    skos:broader :ENERGY ;
     skos:definition "Coal Power Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Coal Power Station"@en ;
 .
 
-pnc:COAST
+:COAST
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "coast"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Coast"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Coast"@en ;
 .
 
-pnc:COMMUNICATION-TOWER
+:COMMUNICATION-TOWER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "communication-tower"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNICATION ;
+    skos:broader :COMMUNICATION ;
     skos:definition "Communication Tower"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Communication Tower"@en ;
 .
 
-pnc:COMMUNITY-CENTRE
+:COMMUNITY-CENTRE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "community-centre"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Community Centre"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Community Centre"@en ;
 .
 
-pnc:COMMUNITY-HEALTH-CENTRE
+:COMMUNITY-HEALTH-CENTRE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "community-health-centre"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HEALTH ;
+    skos:broader :HEALTH ;
     skos:definition "Community Health Centre"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Community Health Centre"@en ;
 .
 
-pnc:CONSERVATION-PARK
+:CONSERVATION-PARK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "conservation-park"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROTECTED-AREA ;
+    skos:broader :PROTECTED-AREA ;
     skos:definition "Conservation Park"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Conservation Park"@en ;
 .
 
-pnc:CONTROL-TOWER
+:CONTROL-TOWER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "control-tower"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Control Tower"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Control Tower"@en ;
 .
 
-pnc:CORNER
+:CORNER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "corner"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Corner"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Corner"@en ;
 .
 
-pnc:COUNTY
+:COUNTY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "county"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "County"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "County"@en ;
 .
 
-pnc:DAM
+:DAM
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "dam"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Dam"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dam"@en ;
 .
 
-pnc:DEEP-MARINE
+:DEEP-MARINE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "deep-marine"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UNDERSEA ;
+    skos:broader :UNDERSEA ;
     skos:definition "Deep (Marine)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Deep (Marine)"@en ;
 .
 
-pnc:DEPRESSION
+:DEPRESSION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "depression"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Depression"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Depression"@en ;
 .
 
-pnc:DESERT
+:DESERT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "desert"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Desert"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Desert"@en ;
 .
 
-pnc:DRAIN
+:DRAIN
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "drain"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Drain"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Drain"@en ;
 .
 
-pnc:DUNE
+:DUNE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "dune"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Dune"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Dune"@en ;
 .
 
-pnc:ENTRANCE
+:ENTRANCE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "entrance"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Entrance"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Entrance"@en ;
 .
 
-pnc:EQUESTRIAN-CENTRE
+:EQUESTRIAN-CENTRE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "equestrian-centre"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Equestrian Centre"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Equestrian Centre"@en ;
 .
 
-pnc:ESTUARY
+:ESTUARY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "estuary"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Estuary"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Estuary"@en ;
 .
 
-pnc:FARM
+:FARM
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "farm"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:AGRICULTURE ;
+    skos:broader :AGRICULTURE ;
     skos:definition "Farm"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Farm"@en ;
 .
 
-pnc:FEATURE
+:FEATURE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "feature"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CATEGORY ;
+    skos:broader :CATEGORY ;
     skos:definition "Feature"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Feature"@en ;
 .
 
-pnc:FERRY-ROUTE
+:FERRY-ROUTE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "ferry-route"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Ferry Route"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ferry Route"@en ;
 .
 
-pnc:FERRY-STATION
+:FERRY-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "ferry-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Ferry Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ferry Station"@en ;
 .
 
-pnc:FIRE-LOOKOUT
+:FIRE-LOOKOUT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "fire-lookout"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EMERGENCY ;
+    skos:broader :EMERGENCY ;
     skos:definition "Fire Lookout"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fire Lookout"@en ;
 .
 
-pnc:FIRE-STATION
+:FIRE-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "fire-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EMERGENCY ;
+    skos:broader :EMERGENCY ;
     skos:definition "Fire Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Fire Station"@en ;
 .
 
-pnc:FIREBREAK
+:FIREBREAK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "firebreak"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRAIL ;
+    skos:broader :TRAIL ;
     skos:definition "Firebreak"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Firebreak"@en ;
 .
 
-pnc:FIRING-RANGE
+:FIRING-RANGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "firing-range"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Firing Range"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Firing Range"@en ;
 .
 
-pnc:FOOTBRIDGE
+:FOOTBRIDGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "footbridge"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRAIL ;
+    skos:broader :TRAIL ;
     skos:definition "Footbridge"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Footbridge"@en ;
 .
 
-pnc:FORD
+:FORD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "ford"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Ford"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ford"@en ;
 .
 
-pnc:FOREST
+:FOREST
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "forest"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:VEGETATION ;
+    skos:broader :VEGETATION ;
     skos:definition "Forest"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Forest"@en ;
 .
 
-pnc:FURTHER-EDUCATION
+:FURTHER-EDUCATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "further-education"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Further Education"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Further Education"@en ;
 .
 
-pnc:GATE
+:GATE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "gate"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Gate"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gate"@en ;
 .
 
-pnc:GENERAL-HOSPITAL
+:GENERAL-HOSPITAL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "general-hospital"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HEALTH ;
+    skos:broader :HEALTH ;
     skos:definition "General Hospital"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "General Hospital"@en ;
 .
 
-pnc:GOLD-FIELD
+:GOLD-FIELD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "gold-field"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:MINERAL-FIELD ;
+    skos:broader :MINERAL-FIELD ;
     skos:definition "Gold Field"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gold Field"@en ;
 .
 
-pnc:GOLF-COURSE
+:GOLF-COURSE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "golf-course"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Golf Course"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Golf Course"@en ;
 .
 
-pnc:GORGE
+:GORGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "gorge"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Gorge"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Gorge"@en ;
 .
 
-pnc:HALL
+:HALL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "hall"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Hall"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hall"@en ;
 .
 
-pnc:HARBOUR
+:HARBOUR
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "harbour"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Harbour"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Harbour"@en ;
 .
 
-pnc:HILL
+:HILL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "hill"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Hill"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hill"@en ;
 .
 
-pnc:HISTORIC-SITE
+:HISTORIC-SITE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "historic-site"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Historic Site"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Historic Site"@en ;
 .
 
-pnc:HOMESTEAD
+:HOMESTEAD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "homestead"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Homestead"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Homestead"@en ;
 .
 
-pnc:HUNDRED
+:HUNDRED
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "hundred"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "Hundred"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hundred"@en ;
 .
 
-pnc:HUT
+:HUT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "hut"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Hut"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hut"@en ;
 .
 
-pnc:HYDRO-POWER-STATION
+:HYDRO-POWER-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "hydro-power-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ENERGY ;
+    skos:broader :ENERGY ;
     skos:definition "Hydro Power Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Hydro Power Station"@en ;
 .
 
-pnc:INLET
+:INLET
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "inlet"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Inlet"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Inlet"@en ;
 .
 
-pnc:IRON-ORE-PROCESSOR
+:IRON-ORE-PROCESSOR
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "iron-ore-processor"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROCESSING ;
+    skos:broader :PROCESSING ;
     skos:definition "Iron Ore Processor"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Iron Ore Processor"@en ;
 .
 
-pnc:ISLAND
+:ISLAND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "island"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Island"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Island"@en ;
 .
 
-pnc:ISTHMUS
+:ISTHMUS
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "isthmus"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Isthmus"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Isthmus"@en ;
 .
 
-pnc:JETTY
+:JETTY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "jetty"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Jetty"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Jetty"@en ;
 .
 
-pnc:JUNCTION
+:JUNCTION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "junction"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Junction"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Junction"@en ;
 .
 
-pnc:KINDERGARTEN
+:KINDERGARTEN
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "kindergarten"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Kindergarten"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Kindergarten"@en ;
 .
 
-pnc:LAGOON
+:LAGOON
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "lagoon"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Lagoon"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Lagoon"@en ;
 .
 
-pnc:LAKE
+:LAKE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "lake"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Lake"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Lake"@en ;
 .
 
-pnc:LANDING-AREA
+:LANDING-AREA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "landing-area"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:AIR ;
+    skos:broader :AIR ;
     skos:definition "Landing Area"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Landing Area"@en ;
 .
 
-pnc:LANDING-PLACE
+:LANDING-PLACE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "landing-place"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Landing Place"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Landing Place"@en ;
 .
 
-pnc:LAW-COURT
+:LAW-COURT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "law-court"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LEGAL ;
+    skos:broader :LEGAL ;
     skos:definition "Law Court"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Law Court"@en ;
 .
 
-pnc:LIBRARY
+:LIBRARY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "library"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Library"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Library"@en ;
 .
 
-pnc:LIGHTHOUSE
+:LIGHTHOUSE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "lighthouse"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Lighthouse"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Lighthouse"@en ;
 .
 
-pnc:LOCAL-GOVERNMENT-AREA
+:LOCAL-GOVERNMENT-AREA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "local-government-area"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "Local Government Area"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Local Government Area"@en ;
 .
 
-pnc:LOCALITY
+:LOCALITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "locality"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "Locality"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Locality"@en ;
 .
 
-pnc:LOCK
+:LOCK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "lock"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Lock"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Lock"@en ;
 .
 
-pnc:LOOKOUT
+:LOOKOUT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "lookout"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Lookout"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Lookout"@en ;
 .
 
-pnc:MARINA
+:MARINA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "marina"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Marina"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Marina"@en ;
 .
 
-pnc:MATERNAL-AND-CHILD-HEALTH-CENTRE
+:MATERNAL-AND-CHILD-HEALTH-CENTRE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "maternal-and-child-health-centre"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HEALTH ;
+    skos:broader :HEALTH ;
     skos:definition "Maternal And Child Health Centre"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Maternal And Child Health Centre"@en ;
 .
 
-pnc:MILL-TIMBER-OPERATIONS
+:MILL-TIMBER-OPERATIONS
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "mill-timber-operations"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:INDUSTRY ;
+    skos:broader :INDUSTRY ;
     skos:definition "Mill/Timber Operations"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mill/Timber Operations"@en ;
 .
 
-pnc:MINE-OPEN-CUT
+:MINE-OPEN-CUT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "mine-open-cut"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EXTRACTION ;
+    skos:broader :EXTRACTION ;
     skos:definition "Mine (Open Cut)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mine (Open Cut)"@en ;
 .
 
-pnc:MINE-UNDERGROUND
+:MINE-UNDERGROUND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "mine-underground"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EXTRACTION ;
+    skos:broader :EXTRACTION ;
     skos:definition "Mine (Underground)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mine (Underground)"@en ;
 .
 
-pnc:MISSION
+:MISSION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "mission"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PLACE-OF-WORSHIP ;
+    skos:broader :PLACE-OF-WORSHIP ;
     skos:definition "Mission"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mission"@en ;
 .
 
-pnc:MONUMENT
+:MONUMENT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "monument"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Monument"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Monument"@en ;
 .
 
-pnc:MOTOR-TRACK
+:MOTOR-TRACK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "motor-track"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:BUSINESS ;
+    skos:broader :BUSINESS ;
     skos:definition "Motor Track"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Motor Track"@en ;
 .
 
-pnc:MOUNTAIN
+:MOUNTAIN
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "mountain"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Mountain"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mountain"@en ;
 .
 
-pnc:MULTIUSE-TRAIL
+:MULTIUSE-TRAIL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "multiuse-trail"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRAIL ;
+    skos:broader :TRAIL ;
     skos:definition "Multiuse Trail"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Multiuse Trail"@en ;
 .
 
-pnc:NATIONAL-PARK
+:NATIONAL-PARK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "national-park"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROTECTED-AREA ;
+    skos:broader :PROTECTED-AREA ;
     skos:definition "National Park"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "National Park"@en ;
 .
 
-pnc:NEIGHBOURHOOD
+:NEIGHBOURHOOD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "neighbourhood"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:POPULATED-PLACE ;
+    skos:broader :POPULATED-PLACE ;
     skos:definition "Neighbourhood"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Neighbourhood"@en ;
 .
 
-pnc:NEIGHBOURHOOD-SAFER-PLACE
+:NEIGHBOURHOOD-SAFER-PLACE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "neighbourhood-safer-place"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EMERGENCY ;
+    skos:broader :EMERGENCY ;
     skos:definition "Neighbourhood Safer Place"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Neighbourhood Safer Place"@en ;
 .
 
-pnc:OIL-REFINERY
+:OIL-REFINERY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "oil-refinery"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROCESSING ;
+    skos:broader :PROCESSING ;
     skos:definition "Oil Refinery"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Oil Refinery"@en ;
 .
 
-pnc:OUTSTATION
+:OUTSTATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "outstation"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Outstation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Outstation"@en ;
 .
 
-pnc:PAN
+:PAN
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "pan"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Pan"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pan"@en ;
 .
 
-pnc:PARISH
+:PARISH
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "parish"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "Parish"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Parish"@en ;
 .
 
-pnc:PARK
+:PARK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "park"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Park"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Park"@en ;
 .
 
-pnc:PASS
+:PASS
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "pass"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Pass"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pass"@en ;
 .
 
-pnc:PASSAGE
+:PASSAGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "passage"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Passage"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Passage"@en ;
 .
 
-pnc:PEAK
+:PEAK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "peak"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Peak"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Peak"@en ;
 .
 
-pnc:PENINSULA
+:PENINSULA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "peninsula"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Peninsula"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Peninsula"@en ;
 .
 
-pnc:PIER
+:PIER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "pier"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Pier"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pier"@en ;
 .
 
-pnc:PLAIN
+:PLAIN
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "plain"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Plain"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Plain"@en ;
 .
 
-pnc:PLANTATION
+:PLANTATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "plantation"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:AGRICULTURE ;
+    skos:broader :AGRICULTURE ;
     skos:definition "Plantation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Plantation"@en ;
 .
 
-pnc:PLATEAU
+:PLATEAU
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "plateau"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Plateau"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Plateau"@en ;
 .
 
-pnc:PLAYGROUND
+:PLAYGROUND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "playground"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Playground"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Playground"@en ;
 .
 
-pnc:POINT
+:POINT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "point"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Point"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Point"@en ;
 .
 
-pnc:POLICE-STATION
+:POLICE-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "police-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EMERGENCY ;
+    skos:broader :EMERGENCY ;
     skos:definition "Police Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Police Station"@en ;
 .
 
-pnc:PORT
+:PORT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "port"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Port"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Port"@en ;
 .
 
-pnc:POST-OFFICE
+:POST-OFFICE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "post-office"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:BUSINESS ;
+    skos:broader :BUSINESS ;
     skos:definition "Post Office"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Post Office"@en ;
 .
 
-pnc:POWER-DISTRIBUTION
+:POWER-DISTRIBUTION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "power-distribution"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ENERGY ;
+    skos:broader :ENERGY ;
     skos:definition "Power Distribution"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Power Distribution"@en ;
 .
 
-pnc:PRIMARY-AND-SECONDARY-SCHOOL
+:PRIMARY-AND-SECONDARY-SCHOOL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "primary-and-secondary-school"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Primary And Secondary School"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Primary And Secondary School"@en ;
 .
 
-pnc:PRIMARY-SCHOOL
+:PRIMARY-SCHOOL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "primary-school"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Primary School"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Primary School"@en ;
 .
 
-pnc:PRISON
+:PRISON
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "prison"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LEGAL ;
+    skos:broader :LEGAL ;
     skos:definition "Prison"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Prison"@en ;
 .
 
-pnc:PUMPING-STATION
+:PUMPING-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "pumping-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Pumping Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Pumping Station"@en ;
 .
 
-pnc:QUARRY
+:QUARRY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "quarry"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EXTRACTION ;
+    skos:broader :EXTRACTION ;
     skos:definition "Quarry"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Quarry"@en ;
 .
 
-pnc:RACECOURSE
+:RACECOURSE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "racecourse"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:BUSINESS ;
+    skos:broader :BUSINESS ;
     skos:definition "Racecourse"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Racecourse"@en ;
 .
 
-pnc:RADIO-COMMUNICATION-FACILITY
+:RADIO-COMMUNICATION-FACILITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "radio-communication-facility"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNICATION ;
+    skos:broader :COMMUNICATION ;
     skos:definition "Radio Communication Facility"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Radio Communication Facility"@en ;
 .
 
-pnc:RADIO-STATION
+:RADIO-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "radio-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNICATION ;
+    skos:broader :COMMUNICATION ;
     skos:definition "Radio Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Radio Station"@en ;
 .
 
-pnc:RAIL-STATION
+:RAIL-STATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "rail-station"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RAIL ;
+    skos:broader :RAIL ;
     skos:definition "Rail Station"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rail Station"@en ;
 .
 
-pnc:RAIL-YARD
+:RAIL-YARD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "rail-yard"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RAIL ;
+    skos:broader :RAIL ;
     skos:definition "Rail Yard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rail Yard"@en ;
 .
 
-pnc:RAILWAY
+:RAILWAY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "railway"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RAIL ;
+    skos:broader :RAIL ;
     skos:definition "Railway"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Railway"@en ;
 .
 
-pnc:RANGE
+:RANGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "range"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Range"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Range"@en ;
 .
 
-pnc:REACH
+:REACH
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "reach"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Reach"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reach"@en ;
 .
 
-pnc:REEF-MARINE
+:REEF-MARINE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "reef-marine"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UNDERSEA ;
+    skos:broader :UNDERSEA ;
     skos:definition "Reef (Marine)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reef (Marine)"@en ;
 .
 
-pnc:RESERVOIR
+:RESERVOIR
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "reservoir"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Reservoir"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Reservoir"@en ;
 .
 
-pnc:RIDGE
+:RIDGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "ridge"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Ridge"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ridge"@en ;
 .
 
-pnc:ROAD-BRIDGE
+:ROAD-BRIDGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "road-bridge"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Road Bridge"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Road Bridge"@en ;
 .
 
-pnc:ROAD-CUTTING
+:ROAD-CUTTING
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "road-cutting"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Road Cutting"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Road Cutting"@en ;
 .
 
-pnc:ROAD-TUNNEL
+:ROAD-TUNNEL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "road-tunnel"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ROAD ;
+    skos:broader :ROAD ;
     skos:definition "Road Tunnel"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Road Tunnel"@en ;
 .
 
-pnc:ROCK
+:ROCK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "rock"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Rock"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rock"@en ;
 .
 
-pnc:ROCKHOLE
+:ROCKHOLE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "rockhole"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Rockhole"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rockhole"@en ;
 .
 
-pnc:ROTUNDA
+:ROTUNDA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "rotunda"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNITY-FACILITY ;
+    skos:broader :COMMUNITY-FACILITY ;
     skos:definition "Rotunda"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rotunda"@en ;
 .
 
-pnc:SCHOOL-CAMP
+:SCHOOL-CAMP
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "school-camp"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "School Camp"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "School Camp"@en ;
 .
 
-pnc:SCRUB
+:SCRUB
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "scrub"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:VEGETATION ;
+    skos:broader :VEGETATION ;
     skos:definition "Scrub"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scrub"@en ;
 .
 
-pnc:SEA
+:SEA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "sea"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Sea"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sea"@en ;
 .
 
-pnc:SEA-CHANNEL-MARINE
+:SEA-CHANNEL-MARINE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "sea-channel-marine"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UNDERSEA ;
+    skos:broader :UNDERSEA ;
     skos:definition "Sea Channel (Marine)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sea Channel (Marine)"@en ;
 .
 
-pnc:SECONDARY-SCHOOL
+:SECONDARY-SCHOOL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "secondary-school"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Secondary School"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Secondary School"@en ;
 .
 
-pnc:SES-FACILITY
+:SES-FACILITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "ses-facility"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EMERGENCY ;
+    skos:broader :EMERGENCY ;
     skos:definition "Ses Facility"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Ses Facility"@en ;
 .
 
-pnc:SEWAGE-TREATMENT-PLANT
+:SEWAGE-TREATMENT-PLANT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "sewage-treatment-plant"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WASTE ;
+    skos:broader :WASTE ;
     skos:definition "Sewage Treatment Plant"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sewage Treatment Plant"@en ;
 .
 
-pnc:SHOAL-MARINE
+:SHOAL-MARINE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "shoal-marine"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UNDERSEA ;
+    skos:broader :UNDERSEA ;
     skos:definition "Shoal (Marine)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Shoal (Marine)"@en ;
 .
 
-pnc:SHOPPING-CENTRE
+:SHOPPING-CENTRE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "shopping-centre"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:BUSINESS ;
+    skos:broader :BUSINESS ;
     skos:definition "Shopping Centre"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Shopping Centre"@en ;
 .
 
-pnc:SIDING
+:SIDING
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "siding"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RAIL ;
+    skos:broader :RAIL ;
     skos:definition "Siding"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Siding"@en ;
 .
 
-pnc:SLOPE
+:SLOPE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "slope"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Slope"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Slope"@en ;
 .
 
-pnc:SMELTER
+:SMELTER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "smelter"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROCESSING ;
+    skos:broader :PROCESSING ;
     skos:definition "Smelter"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Smelter"@en ;
 .
 
-pnc:SOAK
+:SOAK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "soak"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-POINT ;
+    skos:broader :WATER-POINT ;
     skos:definition "Soak"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Soak"@en ;
 .
 
-pnc:SPECIAL-SCHOOL
+:SPECIAL-SCHOOL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "special-school"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Special School"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Special School"@en ;
 .
 
-pnc:SPORT-FACILITY
+:SPORT-FACILITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "sport-facility"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Sport Facility"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sport Facility"@en ;
 .
 
-pnc:SPORTS-COMPLEX
+:SPORTS-COMPLEX
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "sports-complex"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Sports Complex"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sports Complex"@en ;
 .
 
-pnc:SPORTSGROUND
+:SPORTSGROUND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "sportsground"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Sportsground"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Sportsground"@en ;
 .
 
-pnc:SPRING
+:SPRING
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "spring"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-POINT ;
+    skos:broader :WATER-POINT ;
     skos:definition "Spring"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Spring"@en ;
 .
 
-pnc:STATE-BORDER
+:STATE-BORDER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "state-border"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "State Border"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State Border"@en ;
 .
 
-pnc:STATE-FOREST
+:STATE-FOREST
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "state-forest"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:PROTECTED-AREA ;
+    skos:broader :PROTECTED-AREA ;
     skos:definition "State Forest"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State Forest"@en ;
 .
 
-pnc:STOCKYARD
+:STOCKYARD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "stockyard"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:AGRICULTURE ;
+    skos:broader :AGRICULTURE ;
     skos:definition "Stockyard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Stockyard"@en ;
 .
 
-pnc:SURVEY-MARKER
+:SURVEY-MARKER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "survey-marker"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDMARK ;
+    skos:broader :LANDMARK ;
     skos:definition "Survey Marker"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Survey Marker"@en ;
 .
 
-pnc:SWIMMING-POOL
+:SWIMMING-POOL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "swimming-pool"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Swimming Pool"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Swimming Pool"@en ;
 .
 
-pnc:TELEPHONE-EXCHANGE
+:TELEPHONE-EXCHANGE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "telephone-exchange"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNICATION ;
+    skos:broader :COMMUNICATION ;
     skos:definition "Telephone Exchange"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Telephone Exchange"@en ;
 .
 
-pnc:TELEVISION-COMMUNICATION-FACILITY
+:TELEVISION-COMMUNICATION-FACILITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "television-communication-facility"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:COMMUNICATION ;
+    skos:broader :COMMUNICATION ;
     skos:definition "Television Communication Facility"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Television Communication Facility"@en ;
 .
 
-pnc:TENNIS-COURT
+:TENNIS-COURT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "tennis-court"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:RECREATION ;
+    skos:broader :RECREATION ;
     skos:definition "Tennis Court"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Tennis Court"@en ;
 .
 
-pnc:TERTIARY-INSTITUTION
+:TERTIARY-INSTITUTION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "tertiary-institution"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "Tertiary Institution"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Tertiary Institution"@en ;
 .
 
-pnc:TOWN-SITE
+:TOWN-SITE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "town-site"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATIVE-AREA ;
+    skos:broader :ADMINISTRATIVE-AREA ;
     skos:definition "Town Site"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Town Site"@en ;
 .
 
-pnc:UNIVERSITY
+:UNIVERSITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "university"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:EDUCATION ;
+    skos:broader :EDUCATION ;
     skos:definition "University"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "University"@en ;
 .
 
-pnc:VALLEY
+:VALLEY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "valley"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDFORM ;
+    skos:broader :LANDFORM ;
     skos:definition "Valley"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Valley"@en ;
 .
 
-pnc:VINEYARD
+:VINEYARD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "vineyard"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:AGRICULTURE ;
+    skos:broader :AGRICULTURE ;
     skos:definition "Vineyard"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Vineyard"@en ;
 .
 
-pnc:WALKING-TRACK
+:WALKING-TRACK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "walking-track"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRAIL ;
+    skos:broader :TRAIL ;
     skos:definition "Walking Track"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Walking Track"@en ;
 .
 
-pnc:WATER-PIPELINE
+:WATER-PIPELINE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "water-pipeline"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Water Pipeline"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water Pipeline"@en ;
 .
 
-pnc:WATER-TANK
+:WATER-TANK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "water-tank"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-POINT ;
+    skos:broader :WATER-POINT ;
     skos:definition "Water Tank"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water Tank"@en ;
 .
 
-pnc:WATERCOURSE
+:WATERCOURSE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "watercourse"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Watercourse"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Watercourse"@en ;
 .
 
-pnc:WATERFALL
+:WATERFALL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "waterfall"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERWAY ;
+    skos:broader :WATERWAY ;
     skos:definition "Waterfall"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Waterfall"@en ;
 .
 
-pnc:WATERHOLE
+:WATERHOLE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "waterhole"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-POINT ;
+    skos:broader :WATER-POINT ;
     skos:definition "Waterhole"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Waterhole"@en ;
 .
 
-pnc:WEIR
+:WEIR
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "weir"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER-INFRASTRUCTURE ;
+    skos:broader :WATER-INFRASTRUCTURE ;
     skos:definition "Weir"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Weir"@en ;
 .
 
-pnc:WETLAND
+:WETLAND
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "wetland"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATERBODY ;
+    skos:broader :WATERBODY ;
     skos:definition "Wetland"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wetland"@en ;
 .
 
-pnc:WHARF
+:WHARF
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "wharf"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:WATER ;
+    skos:broader :WATER ;
     skos:definition "Wharf"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wharf"@en ;
 .
 
-pnc:WINERY
+:WINERY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "winery"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:INDUSTRY ;
+    skos:broader :INDUSTRY ;
     skos:definition "Winery"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Winery"@en ;
 .
 
-pnc:CATEGORY
+:CATEGORY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "category"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:GROUP ;
+    skos:broader :GROUP ;
     skos:definition "Category"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Category"@en ;
 .
 
-pnc:MINERAL-FIELD
+:MINERAL-FIELD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "mineral-field"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:MINING ;
+    skos:broader :MINING ;
     skos:definition "Mineral Field"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Mineral Field"@en ;
 .
 
-pnc:PLACE-OF-WORSHIP
+:PLACE-OF-WORSHIP
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "place-of-worship"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Place Of Worship"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Place Of Worship"@en ;
 .
 
-pnc:POPULATED-PLACE
+:POPULATED-PLACE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "populated-place"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATION ;
+    skos:broader :ADMINISTRATION ;
     skos:definition "Populated Place"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Populated Place"@en ;
 .
 
-pnc:WASTE
+:WASTE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "waste"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UTILITIES ;
+    skos:broader :UTILITIES ;
     skos:definition "Waste"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Waste"@en ;
 .
 
-pnc:ACCOMMODATION
+:ACCOMMODATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "accommodation"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Accommodation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Accommodation"@en ;
 .
 
-pnc:AIR
+:AIR
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "air"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRANSPORT ;
+    skos:broader :TRANSPORT ;
     skos:definition "Air"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Air"@en ;
 .
 
-pnc:CARE
+:CARE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "care"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:SOCIETY ;
+    skos:broader :SOCIETY ;
     skos:definition "Care"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Care"@en ;
 .
 
-pnc:GROUP
+:GROUP
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2505,20 +2505,20 @@ pnc:GROUP
     skos:topConceptOf cs: ;
 .
 
-pnc:INDUSTRY
+:INDUSTRY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "industry"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Industry"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Industry"@en ;
 .
 
-pnc:LANDCOVER
+:LANDCOVER
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2531,86 +2531,86 @@ pnc:LANDCOVER
     skos:topConceptOf cs: ;
 .
 
-pnc:LEGAL
+:LEGAL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "legal"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:SOCIETY ;
+    skos:broader :SOCIETY ;
     skos:definition "Legal"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Legal"@en ;
 .
 
-pnc:UNCLASSIFIED
+:UNCLASSIFIED
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "unclassified"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UNCLASSIFIED ;
+    skos:broader :UNCLASSIFIED ;
     skos:definition "Unclassified"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Unclassified"@en ;
     skos:topConceptOf cs: ;
 .
 
-pnc:VEGETATION
+:VEGETATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "vegetation"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:LANDCOVER ;
+    skos:broader :LANDCOVER ;
     skos:definition "Vegetation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Vegetation"@en ;
 .
 
-pnc:ENERGY
+:ENERGY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "energy"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UTILITIES ;
+    skos:broader :UTILITIES ;
     skos:definition "Energy"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Energy"@en ;
 .
 
-pnc:EXTRACTION
+:EXTRACTION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "extraction"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:MINING ;
+    skos:broader :MINING ;
     skos:definition "Extraction"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Extraction"@en ;
 .
 
-pnc:PROTECTED-AREA
+:PROTECTED-AREA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "protected-area"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATION ;
+    skos:broader :ADMINISTRATION ;
     skos:definition "Protected Area"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Protected Area"@en ;
 .
 
-pnc:TERRAIN
+:TERRAIN
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2623,7 +2623,7 @@ pnc:TERRAIN
     skos:topConceptOf cs: ;
 .
 
-pnc:ADMINISTRATION
+:ADMINISTRATION
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2636,46 +2636,46 @@ pnc:ADMINISTRATION
     skos:topConceptOf cs: ;
 .
 
-pnc:AGRICULTURE
+:AGRICULTURE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "agriculture"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Agriculture"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Agriculture"@en ;
 .
 
-pnc:BUSINESS
+:BUSINESS
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "business"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Business"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Business"@en ;
 .
 
-pnc:HEALTH
+:HEALTH
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "health"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:SOCIETY ;
+    skos:broader :SOCIETY ;
     skos:definition "Health"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Health"@en ;
 .
 
-pnc:MINING
+:MINING
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2688,46 +2688,46 @@ pnc:MINING
     skos:topConceptOf cs: ;
 .
 
-pnc:PROCESSING
+:PROCESSING
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "processing"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:MINING ;
+    skos:broader :MINING ;
     skos:definition "Processing"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Processing"@en ;
 .
 
-pnc:RAIL
+:RAIL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "rail"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRANSPORT ;
+    skos:broader :TRANSPORT ;
     skos:definition "Rail"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rail"@en ;
 .
 
-pnc:UNDERSEA
+:UNDERSEA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "undersea"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TERRAIN ;
+    skos:broader :TERRAIN ;
     skos:definition "Undersea"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Undersea"@en ;
 .
 
-pnc:UTILITIES
+:UTILITIES
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2740,33 +2740,33 @@ pnc:UTILITIES
     skos:topConceptOf cs: ;
 .
 
-pnc:COMMUNICATION
+:COMMUNICATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "communication"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:UTILITIES ;
+    skos:broader :UTILITIES ;
     skos:definition "Communication"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Communication"@en ;
 .
 
-pnc:EMERGENCY
+:EMERGENCY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "emergency"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:SOCIETY ;
+    skos:broader :SOCIETY ;
     skos:definition "Emergency"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Emergency"@en ;
 .
 
-pnc:HYDROLOGY
+:HYDROLOGY
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2779,33 +2779,33 @@ pnc:HYDROLOGY
     skos:topConceptOf cs: ;
 .
 
-pnc:TRAIL
+:TRAIL
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "trail"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRANSPORT ;
+    skos:broader :TRANSPORT ;
     skos:definition "Trail"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Trail"@en ;
 .
 
-pnc:WATER-POINT
+:WATER-POINT
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "water-point"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HYDROLOGY ;
+    skos:broader :HYDROLOGY ;
     skos:definition "Water Point"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water Point"@en ;
 .
 
-pnc:SOCIETY
+:SOCIETY
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2818,7 +2818,7 @@ pnc:SOCIETY
     skos:topConceptOf cs: ;
 .
 
-pnc:TRANSPORT
+:TRANSPORT
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2831,72 +2831,72 @@ pnc:TRANSPORT
     skos:topConceptOf cs: ;
 .
 
-pnc:ROAD
+:ROAD
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "road"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRANSPORT ;
+    skos:broader :TRANSPORT ;
     skos:definition "Road"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Road"@en ;
 .
 
-pnc:WATERWAY
+:WATERWAY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "waterway"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HYDROLOGY ;
+    skos:broader :HYDROLOGY ;
     skos:definition "Waterway"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Waterway"@en ;
 .
 
-pnc:ADMINISTRATIVE-AREA
+:ADMINISTRATIVE-AREA
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "administrative-area"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:ADMINISTRATION ;
+    skos:broader :ADMINISTRATION ;
     skos:definition "Administrative Area"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Administrative Area"@en ;
 .
 
-pnc:COMMUNITY-FACILITY
+:COMMUNITY-FACILITY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "community-facility"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Community Facility"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Community Facility"@en ;
 .
 
-pnc:WATER-INFRASTRUCTURE
+:WATER-INFRASTRUCTURE
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "water-infrastructure"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HYDROLOGY ;
+    skos:broader :HYDROLOGY ;
     skos:definition "Water Infrastructure"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water Infrastructure"@en ;
 .
 
-pnc:CULTURE
+:CULTURE
     a
         skos:Concept ,
         pn:PlaceType ;
@@ -2909,79 +2909,79 @@ pnc:CULTURE
     skos:topConceptOf cs: ;
 .
 
-pnc:EDUCATION
+:EDUCATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "education"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:SOCIETY ;
+    skos:broader :SOCIETY ;
     skos:definition "Education"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Education"@en ;
 .
 
-pnc:LANDMARK
+:LANDMARK
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "landmark"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Landmark"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Landmark"@en ;
 .
 
-pnc:RECREATION
+:RECREATION
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "recreation"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:CULTURE ;
+    skos:broader :CULTURE ;
     skos:definition "Recreation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Recreation"@en ;
 .
 
-pnc:WATER
+:WATER
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "water"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TRANSPORT ;
+    skos:broader :TRANSPORT ;
     skos:definition "Water"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Water"@en ;
 .
 
-pnc:WATERBODY
+:WATERBODY
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "waterbody"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:HYDROLOGY ;
+    skos:broader :HYDROLOGY ;
     skos:definition "Waterbody"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Waterbody"@en ;
 .
 
-pnc:LANDFORM
+:LANDFORM
     a
         skos:Concept ,
         pn:PlaceType ;
     dcterms:identifier "landform"^^xsd:token ;
     reg:status status:submitted ;
     rdfs:isDefinedBy cs: ;
-    skos:broader pnc:TERRAIN ;
+    skos:broader :TERRAIN ;
     skos:definition "Landform"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Landform"@en ;
@@ -2991,25 +2991,25 @@ cs:
     a skos:ConceptScheme ;
     dcterms:created "2015-01-01"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "pnc"^^xsd:token ;
+    dcterms:identifier "placenames-categories"^^xsd:token ;
     dcterms:modified "2021-04-29"^^xsd:date ;
     dcterms:provenance "This vocabulary was generated from the Place Names database" ;
-    dcterms:publisher <https://linked.data.gov.au/org/anzlic> ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
     owl:versionInfo "1.0"^^xsd:string ;
     reg:status status:submitted ;
     skos:definition "A 3-level hierarchy of Place Name categories"@en ;
     skos:hasTopConcept
-        pnc:ADMINISTRATION ,
-        pnc:CULTURE ,
-        pnc:GROUP ,
-        pnc:HYDROLOGY ,
-        pnc:LANDCOVER ,
-        pnc:MINING ,
-        pnc:SOCIETY ,
-        pnc:TERRAIN ,
-        pnc:TRANSPORT ,
-        pnc:UNCLASSIFIED ,
-        pnc:UTILITIES ;
+        :ADMINISTRATION ,
+        :CULTURE ,
+        :GROUP ,
+        :HYDROLOGY ,
+        :LANDCOVER ,
+        :MINING ,
+        :SOCIETY ,
+        :TERRAIN ,
+        :TRANSPORT ,
+        :UNCLASSIFIED ,
+        :UTILITIES ;
     skos:prefLabel "Place Names Categories"@en ;
 .
 
