@@ -227,7 +227,7 @@ if __name__ == "__main__":
     while retries < MAX_RETRIES:
         try:
             # rebuild VocPrez' cache
-            r = httpx.get(f"{WEBSITE_URL}/purge-cache")
+            r = httpx.get(f"{WEBSITE_URL}purge-cache")
             if r.status_code != 200:
                 reason = r.content
                 time.sleep(0 if retries == 0 else 2 ** retries)
