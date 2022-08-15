@@ -15,7 +15,7 @@ The vocabularies in this repository are licensed using the [CC BY 4.0](https://c
 
 Other vocabularies reproduced by ICSM may have other licensing arrangements. See the individual vocabulary files for details.
 
-All vocabularies published by ICSM: &copy; Commonwealth of Australia (Geoscience Australia), 2022.
+All vocabularies published by ICSM: &copy; Commonwealth of Australia (Geoscience Australia), 2022.  
 
 
 ## Contact
