@@ -97,4 +97,3 @@ cs: a skos:ConceptScheme ;
     skos:prefLabel "Address Alias Type"@en ;
     sdo:creator <https://linked.data.gov.au/org/ga> ;
     sdo:publisher <https://linked.data.gov.au/org/icsm> .
-
