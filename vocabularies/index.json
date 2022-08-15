@@ -18,6 +18,7 @@
     "ground-relations.ttl": "https://linked.data.gov.au/def/fsdf/ground-relations",
     "meshblock-categories.ttl": "https://linked.data.gov.au/def/asgs/cat",
     "observable-properties.ttl": "https://linked.data.gov.au/def/fsdf/observable-properties",
+    "ownership": "https://linked.data.gov.au/def/fsdf/ownership",
     "operational-statuses.ttl": "https://linked.data.gov.au/def/fsdf/operational-statuses",
     "placenames-categories.ttl": "https://linked.data.gov.au/def/placenames-categories",
     "themes-buildings-and-settlements.ttl": "https://linked.data.gov.au/def/fsdf/themes/buildings-and-settlements-cs",
