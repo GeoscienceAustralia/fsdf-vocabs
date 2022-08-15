@@ -2,12 +2,12 @@ from pathlib import Path
 from pyshacl import validate
 import httpx
 
-WARNINGS_INVALID = False # Allows warnings to flag as invalid when true
+WARNINGS_INVALID = False  # Allows warnings to flag as invalid when true
 SHOW_WARNINGS = True
 
 def main():
     # get the validator
-    r = httpx.get("https://w3id.org/profile/vocpub/validator")
+    r = httpx.get("https://w3id.org/profile/vocpub/validator", follow_redirects=True)
     assert r.status_code == 200
 
     # for all vocabs...

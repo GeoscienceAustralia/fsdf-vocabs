@@ -12,11 +12,11 @@ from rdflib.namespace import RDF, SKOS
 MAX_RETRIES = 3
 
 DB_TYPE = "fuseki"  # options: "fuseki" | "graphdb"
-BASE_DB_URI = ""
-WEBSITE_URL = ""
+BASE_DB_URI = "http://digital-atlas-lb-1137864764.ap-southeast-2.elb.amazonaws.com:3040/icsm"
+WEBSITE_URL = "https://linked.fsdf.org.au/"
 
-DB_USERNAME = os.environ.get("DB_USERNAME", None)
-DB_PASSWORD = os.environ.get("DB_PASSWORD", None)
+DB_USERNAME = os.environ.get("DB_USERNAME", "")
+DB_PASSWORD = os.environ.get("DB_PASSWORD", "")
 
 
 def add_vocabs(vocabs: List[Path], mappings: dict):
@@ -95,7 +95,7 @@ def remove_vocabs(vocabs: List[Path], mappings: dict):
 
 def get_graph_uri_for_vocab(vocab: Path) -> URIRef:
     """We can get the Graph URI for a vocab from the vocab file as we know that all VocPub-conformant vocabs
-    have one and only one ConceptScheme per file and that the ICSM VocPrez installation uses the ConceptScheme URI
+    have one and only one ConceptScheme per file and that the FSDF VocPrez installation uses the ConceptScheme URI
     as the Graph URI"""
     g = Graph().parse(str(vocab), format="ttl")
     for s in g.subjects(predicate=RDF.type, object=SKOS.ConceptScheme):
@@ -227,7 +227,7 @@ if __name__ == "__main__":
     while retries < MAX_RETRIES:
         try:
             # rebuild VocPrez' cache
-            r = httpx.get(f"{WEBSITE_URL}/cache-reload")
+            r = httpx.get(f"{WEBSITE_URL}/purge-cache")
             if r.status_code != 200:
                 reason = r.content
                 time.sleep(0 if retries == 0 else 2 ** retries)
