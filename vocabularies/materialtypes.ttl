@@ -1,0 +1,42 @@
+# Facilities, Power Stations & Substations, ...
+
+# hasLocalConstructionType
+
+# "The type of the construction of the building" - from metadata
+
+# baseURI: https://linked.data.gov.au/def/fsdf/materialtypes
+# prefix: material
+
+@prefix cs: <https://linked.data.gov.au/def/fsdf/materialtypes> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fsdf: <https://linked.data.gov.au/def/fsdf/> .
+@prefix material: <https://linked.data.gov.au/def/fsdf/materialtypes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cs:
+    a owl:Ontology , skos:ConceptScheme ;
+    skos:prefLabel "FSDF Material Types" ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dcterms:created "2021-07-27"^^xsd:date ;
+    dcterms:modified "2021-07-27"^^xsd:date ;
+    dcterms:provenance "Created for the Loc-I DR Project"@en ;
+    skos:definition "This vocabulary lists types of material used to construct buildings and facilities in various FSDF datasets"@en ;
+    owl:versionInfo "1.0"^^xsd:string ;
+    skos:hasTopConcept
+    	material:wind ;
+.
+
+material:wind
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Wind used to generate power, usually wind turbines"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wind"@en ;
+    skos:topConceptOf cs: ;
+.
