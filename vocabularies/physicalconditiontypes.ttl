@@ -1,0 +1,45 @@
+# this vocab is for Powerstations' & Power Substations' property hasPhysicalCondition
+# single placeholder term only
+
+# Facilities, Power Stations & Substations, ...
+
+# hasLocalConstructionType
+
+# "The type of the construction of the building" - from metadata
+
+# baseURI: https://linked.data.gov.au/def/fsdf/physicalconditiontypes
+# prefix: phys
+
+@prefix cs: <https://linked.data.gov.au/def/fsdf/physicalconditiontypes> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fsdf: <https://linked.data.gov.au/def/fsdf/> .
+@prefix phys: <https://linked.data.gov.au/def/fsdf/physicalconditiontypes/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cs:
+    a owl:Ontology , skos:ConceptScheme ;
+    skos:prefLabel "FSDF Physical Conditions" ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dcterms:created "2021-07-27"^^xsd:date ;
+    dcterms:modified "2021-07-27"^^xsd:date ;
+    dcterms:provenance "Created for the Loc-I DR Project"@en ;
+    skos:definition "This vocabulary lists types of physical condition that buildings and facilities are known to be in, in various FSDF datasets"@en ;
+    owl:versionInfo "1.0"^^xsd:string ;
+    skos:hasTopConcept
+    	phys:wind ;
+.
+
+phys:wind
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Wind used to generate power, usually wind turbines"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wind"@en ;
+    skos:topConceptOf cs: ;
+.

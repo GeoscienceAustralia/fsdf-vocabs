@@ -1,0 +1,52 @@
+# baseURI: https://linked.data.gov.au/def/fsdf/psstructs
+# prefix: psstructs
+
+@prefix cs: <https://linked.data.gov.au/def/fsdf/psstructs> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fsdf: <https://linked.data.gov.au/def/fsdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix psstructs: <https://linked.data.gov.au/def/fsdf/psstructs/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cs:
+    a owl:Ontology , skos:ConceptScheme ;
+    skos:prefLabel "FSDF Power Station Structures" ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:publisher <https://linked.data.gov.au/org/icsm> ;
+    dcterms:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
+    dcterms:created "2021-07-27"^^xsd:date ;
+    dcterms:modified "2021-07-27"^^xsd:date ;
+    dcterms:provenance "Created for the Loc-I DR Project"@en ;
+    skos:definition "This vocabulary lists types of structure that buildings and facilities may have, in various FSDF datasets"@en ;
+    owl:versionInfo "1.0"^^xsd:string ;
+    skos:hasTopConcept
+    	psstructs:Solar ;
+.
+
+psstructs:Solar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Solar"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Solar"@en ;
+    skos:topConceptOf cs: ;
+.
+psstructs:SolarPhotovoltaic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Solar Photovoltaic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Solar Photovoltaic"@en ;
+    skos:topConceptOf cs: ;
+.
+psstructs:StandardPV
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Standard Photovoltaic"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Standard PV"@en ;
+    skos:topConceptOf cs: ;
+.
