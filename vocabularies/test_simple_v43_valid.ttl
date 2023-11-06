@@ -1,0 +1,204 @@
+PREFIX cs: <http://resource.geosciml.org/classifierscheme/cgi/2016.01/particletype>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://resource.geosciml.org/classifier/cgi/particletype>
+    a skos:Collection ;
+    dcterms:identifier "particletype"^^xsd:token ;
+    dcterms:isPartOf cs: ;
+    dcterms:provenance "this vocabulary"@en ;
+    skos:definition "All Concepts in this vocabulary"@en ;
+    skos:member
+        <http://resource.geosciml.org/classifier/cgi/particletype/accidental_pyroclastic_fragment> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/aggregate_non-clastic_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/amygdule> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/autoclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/axiolite> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/bioclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/bleb> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/coated_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/cognate_fragments> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/concretionary_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/coprolite> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/crystal_fragment> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/crystalline_grain> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/crystallite> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/epiclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fecal_pellet> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fenestra> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fiamme> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fluid_inclusion> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fluidal_pyroclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/glomerocryst> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/granular_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/holoblast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/hydroclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/hydrothermal_vein> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/igneous_inclusion> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/igneous_vein> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/intraclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/intrusive_sheet> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/juvenile_pyroclastic_fragment> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/lithic_clast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/lithoclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/lithophysae> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/material_fossil> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/miarolitic_cavity> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/microlite> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/mineral_clast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/nodule> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/oncoid> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/ooid> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/orb> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/paleoblast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/paramorph> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/peloid> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/pisoid> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/pore_space> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/pseudomorph> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/pyroclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/reworked_pyroclastic_fragment> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/schlieren> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/shard> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/solid_constituent_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/spherule> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/syngenetic_nodule> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/syngenetic_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/variole> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/ventrifact> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/vesicle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/vug> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/xenocryst> ;
+    skos:prefLabel "Particle Type - All Concepts"@en ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/amygdule>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/bioclast>
+    a skos:Concept ;
+    dcterms:identifier "bioclast"^^xsd:token ;
+    dcterms:provenance "NADM SLTTs 2004"@en ;
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle> ;
+    skos:definition "Granular sedimentary particle that is a \\\\fragmentary piece of a shell, bone, or other hard skeletal structure of an animal, plant, or protozoan. May be fossilized or non-fossilized\\\\. Use in situations where fossil organism can not be identified, thus 'material fossil' is inappropriate."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bioclast"@eng ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/bleb>
+    a skos:Concept ;
+    dcterms:identifier "bleb"^^xsd:token ;
+    dcterms:provenance "this vocabulary"@en ;
+    skos:definition "Generic term for a small rounded particle of uncertain origin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bleb"@eng ;
+    skos:topConceptOf cs: ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/coprolite>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/fecal_pellet>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/fenestra>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/fluid_inclusion>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/lithophysae>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/material_fossil>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/miarolitic_cavity>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/vug> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/pore_space>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/vesicle>
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/vug>
+    a skos:Concept ;
+    dcterms:identifier "vug"^^xsd:token ;
+    skos:broader <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+    skos:definition "Irregular cavity in rock, generic term with no connotation of origin of cavity. May be lined with crystals of different mineral compostion to the host rock"@en ;
+    skos:inScheme cs: ;
+    skos:narrower <http://resource.geosciml.org/classifier/cgi/particletype/miarolitic_cavity> ;
+    skos:prefLabel "vug"@eng ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle>
+    a skos:Concept ;
+    dcterms:identifier "biogenic_particle"^^xsd:token ;
+    dcterms:provenance "NADM SLTTs 2004"@en ;
+    skos:altLabel
+        "one"@en ,
+        "three"@en ,
+        "two"@en ;
+    skos:definition "A type of granular particle formed by the physiological activities of organisms (plants, animals, protozoa) that produce body parts which subsequently are incorporated into a sediment aggregate. Contrast with nonbiogenic particle. Includes biogenic objects that are whole or fragmentary (bioclasts), can be fossilized or non-fossilized"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        <http://resource.geosciml.org/classifier/cgi/particletype/bioclast> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/coprolite> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fecal_pellet> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/material_fossil> ;
+    skos:prefLabel "biogenic particle"@eng ;
+    skos:topConceptOf cs: ;
+.
+
+<http://resource.geosciml.org/classifier/cgi/particletype/cavity>
+    a skos:Concept ;
+    dcterms:identifier "cavity"^^xsd:token ;
+    dcterms:provenance "this vocabulary"@en ;
+    skos:definition "Constituent is empty space between particles in a compound material, generally filled with some sort of fluid. Cavity particle types can be used to describe porosity in a granular material."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        <http://resource.geosciml.org/classifier/cgi/particletype/amygdule> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fenestra> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/fluid_inclusion> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/lithophysae> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/pore_space> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/vesicle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/vug> ;
+    skos:prefLabel "cavity"@eng ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "1970-01-01"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/cgi> ;
+    dcterms:hasPart <http://resource.geosciml.org/classifier/cgi/particletype> ;
+    dcterms:identifier "particletype"^^xsd:token ;
+    dcterms:modified "1970-01-01"^^xsd:date ;
+    dcterms:provenance "Original set of terms from the GeosciML standard"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/cgi> ;
+    owl:versionInfo "2016.01" ;
+    skos:definition "This vocabulary is used to specify particleType in particleTypeDescription associated with a compoundMaterial. Terms to specify the nature of individual particles of each constituent in an aggregation, based mostly on their genesis. Because the constituents are identifiable parts, the part units must have some definition. Examples include clasts, crystals, pore space, material fossil. Constituent type is determined based on the nature of the particles, and ideally is independent of the relationship between particles in a compound material aggregation."@en ;
+    skos:hasTopConcept
+        <http://resource.geosciml.org/classifier/cgi/particletype/biogenic_particle> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/bleb> ,
+        <http://resource.geosciml.org/classifier/cgi/particletype/cavity> ;
+    skos:prefLabel "Particle Type"@en ;
+    dcat:contactPoint "Ollie Raymond" ;
+.
