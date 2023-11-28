@@ -12,7 +12,7 @@ from rdflib.namespace import RDF, SKOS
 MAX_RETRIES = 3
 
 DB_TYPE = "fuseki"  # options: "fuseki" | "graphdb"
-BASE_DB_URI = "http://digital-atlas-lb-1137864764.ap-southeast-2.elb.amazonaws.com:3040/icsm"
+BASE_DB_URI = "http://digital-atlas-lb-1137864764.ap-southeast-2.elb.amazonaws.com:3040/fsdf"
 WEBSITE_URL = "https://linked.fsdf.org.au/"
 
 DB_USERNAME = os.environ.get("DB_USERNAME", "")
